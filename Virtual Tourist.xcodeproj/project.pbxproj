@@ -55,13 +55,45 @@
 			isa = PBXGroup;
 			children = (
 				4A62E13F23317FBD0020EC15 /* AppDelegate.swift */,
-				4A62E14123317FBD0020EC15 /* ViewController.swift */,
-				4A62E14323317FBD0020EC15 /* Main.storyboard */,
-				4A62E14623317FC00020EC15 /* Assets.xcassets */,
-				4A62E14823317FC00020EC15 /* LaunchScreen.storyboard */,
+				4A62E151233180630020EC15 /* Controllers */,
+				4A62E154233180E30020EC15 /* Utils */,
+				4A62E153233180DB0020EC15 /* Models */,
+				4A62E152233180CB0020EC15 /* Views */,
 				4A62E14B23317FC00020EC15 /* Info.plist */,
 			);
 			path = "Virtual Tourist";
+			sourceTree = "<group>";
+		};
+		4A62E151233180630020EC15 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4A62E14123317FBD0020EC15 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4A62E152233180CB0020EC15 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4A62E14323317FBD0020EC15 /* Main.storyboard */,
+				4A62E14623317FC00020EC15 /* Assets.xcassets */,
+				4A62E14823317FC00020EC15 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4A62E153233180DB0020EC15 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4A62E154233180E30020EC15 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
